@@ -1,6 +1,6 @@
 # Portfolio
 
-Solution Code for Portfolio labs
+Reference Code for Portfolio labs
 
 Live site: https://bcwebcourse.github.io/portfolio-namwkim/
 

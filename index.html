@@ -5,7 +5,7 @@
     
     <!-- favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">    
-    
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="container">
@@ -23,93 +23,97 @@
             </ul>
         </nav>
         <section id="about">
-            <h1>Nam Wook Kim</h1>
-            <div>
-                <img src="assets/profile.png"/>
-                <p>
-                    <strong>Assistant Professor @ Boston College</strong><br>
-                    nam.wook.kim@bc.edu <br>
-                    St. Mary's Hall S256, Chestnut Hill, MA 02467<br>
-                    <a href="assets/resume.pdf" target="_blank">Resume</a> |
-                    <a href="https://twitter.com/namwkim85" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/namwkim/" target="_blank">LinkedIn</i></a> | <a href="https://github.com/namwkim" target="_blank">Github</a><br>
-                </p>
+            <h1 class="title">Nam Wook Kim</h1>
+            
+            <div class="row">
+                <div class="col-6">
+                    <img class="profile-img" src="assets/profile.png"/>
+                    <p>
+                        <strong>Assistant Professor @ Boston College</strong><br>
+                        nam.wook.kim@bc.edu <br>
+                        St. Mary's Hall S256, Chestnut Hill, MA 02467<br>
+                        <a href="assets/resume.pdf" target="_blank">Resume</a> |
+                        <a href="https://twitter.com/namwkim85" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/namwkim/" target="_blank">LinkedIn</i></a> | <a href="https://github.com/namwkim" target="_blank">Github</a><br>
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>
+                        Nam Wook Kim is an Assistant Professor of Computer Science at Boston
+                        College. His research vision is to <strong>lower barriers for everyone to
+                        understand and communicate complex data</strong>. He tackles this challenge by
+                        studying <strong>visualization</strong> within the broad context of <strong>human-computer
+                        interaction</strong>. His research investigates innovative approaches to interact
+                        with data, going beyond traditional expert systems and addressing the
+                        needs of a broader audience, including designers, journalists, and
+                        casual users. His work has been recognized with awards from ACM CHI, ACM
+                        UIST, and Kantar Information is Beautiful Awards.
+                    </p>
+                </div>
                 
-            </div>    
-            <div>
-                <p>
-                    Nam Wook Kim is an Assistant Professor of Computer Science at Boston
-                    College. His research vision is to <strong>lower barriers for everyone to
-                    understand and communicate complex data</strong>. He tackles this challenge by
-                    studying <strong>visualization</strong> within the broad context of <strong>human-computer
-                    interaction</strong>. His research investigates innovative approaches to interact
-                    with data, going beyond traditional expert systems and addressing the
-                    needs of a broader audience, including designers, journalists, and
-                    casual users. His work has been recognized with awards from ACM CHI, ACM
-                    UIST, and Kantar Information is Beautiful Awards.
-                </p>
-            </div>
+            </div >    
+
             
         
         </section>
         <section id="news">
-            <h1>News</h1>
+            <h1 class="title">News</h1>
             <div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-8">
                         Teaching a web programming course
                     </div>
-                    <div>
+                    <div class="col-4">
                         Jan 13, 2020
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-8">
                         Presenting my dissertation research at Ajou University
                     </div>
-                    <div>
+                    <div class="col-4">
                         Dec 16, 2019            
-                    </div>
+                    </div> 
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-8">
                         Traveling to Korea
                     </div>
-                    <div>
+                    <div class="col-4">
                         Dec 12, 2019            
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-8">
                         Serving as a program committee for CHI 2020
                     </div>
-                    <div>
+                    <div class="col-4">
                         Sep 18, 2019            
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-8">
                         Serving as a program committee for CSCW 2020
                     </div>
-                    <div>
+                    <div class="col-4">
                         Sep 11, 2019           
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-8">
                         Attending CHI 2019 @ Glasgow, UK
                     </div>
-                    <div>
+                    <div class="col-4">
                         May 04, 2019 ~ May 09, 2019            
                     </div>
                 </div>
-            </di>
+            </div>
         </section>
         <section id="projects">
-            <h1>Projects</h1>
+            <h1 class="title">Projects</h1>
         
             <div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         <div>
                             <a href="datatoon.html"><strong>DataToon: Drawing Dynamic Network Comics With Pen + Touch Interaction</strong></a>
                         </div>
@@ -120,8 +124,8 @@
                             <em>ACM Conference on Human Factors in Computing Systems(CHI), 2019</em>
                         </div>
                         <div>
-                            <span>Conference</span>
-                            <span>System</span>
+                            <span class="tag conference">Conference</span>
+                            <span class="tag system">System</span>
                         </div>
                         <div>
                             <span><a href="assets/datatoon/paper.pdf" target="_blank">Paper</a></span>
@@ -129,12 +133,12 @@
                             <span><a href="https://datatoon.github.io/" target="_blank">Demo</a></span>
                         </div>
                     </div> 
-                    <div>
+                    <div class="col-6">
                         <img src="assets/datatoon/teaser.png" width="100%">
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         <div>
                             <a href="storycurves.html"><strong>Visualizing Nonlinear Narratives with Story Curves</strong></a>
                         </div>
@@ -145,8 +149,8 @@
                             <em>IEEE Transactions on Visualization and Computer Graphics(InfoVis), 2018</em>
                         </div>
                         <div>
-                                <span>Journal</span>
-                                <span>Technique</span>
+                                <span class="tag journal">Journal</span>
+                                <span class="tag technique">Technique</span>
                         </div>
                         <div>
                             <span><a href="assets/storycurves/paper.pdf" target="_blank">Paper</a></span>
@@ -155,12 +159,12 @@
                         </div>
         
                     </div> 
-                    <div>
+                    <div class="col-6">
                         <img src="assets/storycurves/teaser.png" width="100%">
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="col-6">
                         <div>
                             <a href="bubbleview.html"><strong>BubbleView: an Alternative to Eye-tracking for Crowdsourcing Image Importance</strong></a>
                         </div>
@@ -180,7 +184,7 @@
                             <span><a href="https://bubbleview.namwkim.org/" target="_blank">Demo</a></span>
                         </div>
                     </div> 
-                    <div>
+                    <div class="col-6">
                         <img src="assets/bubbleview/teaser.png" width="100%">
                     </div>
                 </div>
